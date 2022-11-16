@@ -12,7 +12,7 @@ def gradientfunc(x):
     return 2*x+6
 
 start=int(input())
-history,lr,lm=gradientDescent(start,gradientfunc,0.01,10)
+history,lr,lm=gradientDescent(start,gradientfunc,0.01,100)
 
 print("Learning rate of algorithm is:",lr,end="\n")
 print("Iterations of algorithm is:",len(history),end="\n")
